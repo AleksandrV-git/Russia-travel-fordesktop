@@ -1,0 +1,27 @@
+@import url(./__content-row/intro__content-row.css);
+@import url(./__paragraf-author/intro__paragraf-author.css);
+@import url(./__paragraf/intro__paragraf.css);
+@import url(./__subtitle/intro__subtitle.css);
+@import url(./__text-list-item/intro__text-list-item.css);
+@import url(./__text/intro__text.css);
+@import url(./__title/intro__title.css);
+@import url(./__paragraf-caption/intro__paragraf-caption.css);
+@import url(./__paragraf-date/intro__paragraf-date.css);
+
+
+.intro {
+  margin: 80px auto 0 auto;
+  max-width: 984px;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+

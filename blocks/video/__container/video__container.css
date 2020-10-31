@@ -1,0 +1,8 @@
+.video__container {
+  max-width: 1184px;
+  margin: 72px 0 0 0;
+  display: grid;
+  grid-gap: 17px;
+  grid-template-columns: repeat(auto-fill, minmax(583px, 1fr));
+  grid-template-rows: repeat(1, 323px);
+}

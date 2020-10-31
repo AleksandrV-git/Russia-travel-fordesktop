@@ -1,0 +1,8 @@
+.additional-item__text {
+  position: relative;
+  width: 248px;
+  margin: 0 auto 30px auto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}

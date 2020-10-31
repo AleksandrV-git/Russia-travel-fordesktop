@@ -1,0 +1,40 @@
+@import url(./__duration/video-item__duration.css);
+@import url(./__subtitle/video-item__subtitle.css);
+@import url(./__title/video-item__title.css);
+
+.video-item {
+  position: relative;
+  width: 583px;
+  height: 323px;
+  margin: 0 auto;
+  border-radius: 5px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.video-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: .5;
+  transition: 1s;
+}
+
+.video-item:hover::before {
+  opacity: 0.7;
+}
+
+.video-item::after {
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 42px;
+  height: 42px;
+  background-image: url(../../images/icon_play.svg);
+  background-size: cover;
+}

@@ -1,0 +1,8 @@
+.video-item__title {
+  position: relative;
+  max-width: 322px;
+  margin: 12px 0 0 30px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 39px;
+}
